@@ -33,15 +33,22 @@
     }
   </script>
 
-  <!-- Favicon Setup (cross-browser + mobile support) -->
-  <!-- Standard Favicon -->
+  <!-- Preload Favicon -->
+  <link rel="preload" href="./assets/favicon_io/favicon-32x32.png" as="image">
+
+  <!-- Favicon Setup -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
-  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+  <link rel="icon" sizes="any" href="./favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
-  <!-- Apple Touch Icon for iOS Safari -->
+  <!-- Apple Touch Icons (used by iOS browsers) -->
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon_io/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon_io/apple-touch-icon-120x120.png">
 
-  <!-- Theme Color (mobile browser top bar) -->
+
+  <!-- Theme Color -->
   <meta name="theme-color" content="#ffffff">
 
   <!-- Styles -->
